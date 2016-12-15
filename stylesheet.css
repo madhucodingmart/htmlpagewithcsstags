@@ -1,0 +1,283 @@
+body {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-style: oblique;
+   font-size: 14px;
+   background-image: url("/home/codingmart/Desktop/two/Images/66.jpg");
+    background-attachment: fixed;
+
+}
+
+p {
+
+  background-color: white;
+   width: 40%;
+   border-style: dotted ;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 10px;
+      border-color: yellow;
+      padding: 8px;
+
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+span{
+  text-decoration: line-through;
+}
+p.hello{
+  width: 60%;
+  text-transform: lowercase;
+text-indent: 50px;
+  margin-top: 25px;
+   word-spacing: 10px;
+margin-bottom: 10px;
+margin-right: 150px;
+margin-left: 10px;
+  border-style: solid;
+  border-color: green;
+   border-width: 3px;
+   padding: 20px 20px;
+    background-color: white;
+    outline-style: double;
+}
+
+
+h1 {
+
+   color:blue;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 18px;
+   font-weight: bold;
+   color: #000000;
+}
+
+h2 {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 16px;
+   font-weight: bold;
+   color: #000000;
+   border-bottom: 1px solid #C6EC8C;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#navigation {
+   position: absolute;
+   width: 210px;
+   height: 400px;
+   margin: 0;
+   margin-top: 50px;
+   border-right: 1px solid #C6EC8C;
+   font-weight: normal;
+}
+
+#centerDoc {
+   position: absolute;
+   padding: 0 0 20px 0;
+   margin-top: 50px;
+   margin-left: 235px;
+}
+
+
+.he h1{
+  color: black;
+padding: 20px 20px;
+  text-decoration: underline;
+}
+
+div.hi{
+  text-transform: capitalize;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+
+img.se {
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+
+    float: right;
+    margin: 0 0 10px 10px;
+}
+img.se:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+img{
+
+  float:center;
+  padding:10px;
+  display: block;
+  margin: auto;
+    width: 50%;
+}
+.container {
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+
+ul.a {
+  background: none;
+  width:160px;
+  margin-left: 20px;
+    list-style-type: circle;
+}
+
+ul.b {
+  background: none;
+  width:160px;
+  margin-left: 20px;
+    list-style-type: square;
+}
+
+ol.c {
+  background:none;
+  width:160px;
+  margin-left: 20px;
+    list-style-type: upper-roman;
+}
+
+ol.d {
+  background: none;
+  width:160px;
+  margin-left: 20px;
+    list-style-type: lower-alpha;
+}
+
+
+ul.dq {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.dq {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+
+    border-right: none;
+}
+
+li.dq a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dq a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+h1.fa{
+  width:250px;
+  border-style:solid;
+  border-width:3px;
+  border-color:red;
+  background-color: lightgrey;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #129793;
+    clear: left;
+    text-align: center;
+    margin-left:0px;
+}
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
